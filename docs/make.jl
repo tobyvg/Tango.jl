@@ -8,7 +8,7 @@ makedocs(;
     authors="tobyvg <tobyvangastelen@gmail.com> and contributors",
     sitename="Tango.jl",
     format=Documenter.HTML(;
-        canonical="https://Tobyvg.github.io/Tango.jl",
+        canonical="https://tobyvg.github.io/Tango.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/Tobyvg/Tango.jl",
+    repo="github.com/tobyvg/Tango.jl",
     devbranch="main",
 )
